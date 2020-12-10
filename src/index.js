@@ -1,1 +1,1 @@
-import index from './style.less';
+import index from '../css/index.css';

@@ -65,7 +65,7 @@ module.exports={
     },
     plugins:[
         new HtmlWebpackPlugin({
-            title:'网页标题',
+            title:'画三角形',
             template:'./src/index.html',
             inject:'body',
             minify:{

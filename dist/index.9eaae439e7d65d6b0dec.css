@@ -1,0 +1,36 @@
+div {
+  float: left;
+}
+.box1 {
+  border: 100px solid transparent;
+  border-right: 100px solid red;
+}
+.box2 {
+  border: 50px solid transparent;
+  border-right: 50px solid blue;
+}
+.box3 {
+  border: 100px solid transparent;
+  border-top: 100px solid red;
+}
+.box4 {
+  border: 50px solid transparent;
+  border-top: 50px solid black;
+}
+.box5 {
+  border: 100px solid transparent;
+  border-left: 100px solid red;
+}
+.box6 {
+  border: 50px solid transparent;
+  border-left: 50px solid blue;
+}
+.box7 {
+  border: 100px solid transparent;
+  border-bottom: 100px solid red;
+}
+.box8 {
+  border: 50px solid transparent;
+  border-bottom: 50px solid blue;
+}
+
