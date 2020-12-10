@@ -1,0 +1,43 @@
+.mixinR(@size,@color){
+    border: @size solid transparent;
+    border-right: @size solid @color;
+}
+.mixinB(@size,@color){
+    border: @size solid transparent;
+    border-bottom: @size solid @color;
+}
+.mixinL(@size,@color){
+    border: @size solid transparent;
+    border-left: @size solid @color;
+}
+.mixinT(@size,@color){
+    border: @size solid transparent;
+    border-top: @size solid @color;
+}
+div{
+    float: left;
+}
+.box1{
+    .mixinR(100px, red)
+}
+.box2{
+    .mixinR(50px, blue)
+}
+.box3{
+    .mixinT(100px, red)
+}
+.box4{
+    .mixinT(50px, black)
+}
+.box5{
+    .mixinL(100px, red)
+}
+.box6{
+    .mixinL(50px, blue)
+}
+.box7{
+    .mixinB(100px, red)
+}
+.box8{
+    .mixinB(50px, blue)
+}
